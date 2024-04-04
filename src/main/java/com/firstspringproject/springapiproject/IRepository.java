@@ -7,5 +7,10 @@ public interface IRepository<T> {
     public void save(T p);
     
     public Collection<T> getAll();
+
+    
+    public boolean deletePlayer(Integer id);
+
+   
     
 } 

@@ -7,8 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringapiprojectApplication {
 
 	public static void main(String[] args) {
-		Player p = new Player();
-		
 		SpringApplication.run(SpringapiprojectApplication.class, args);
 	}
 

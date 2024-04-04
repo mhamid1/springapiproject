@@ -26,4 +26,19 @@ public Collection<Player> getAll() {
   
         return data.values();
     }
+
+
+    @Override
+    public boolean deletePlayer(Integer id){
+        Player player = data.get(id);
+        if(player != null){
+            data.values().removeIf(t -> id.equals(t.getId()));
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    
 }
