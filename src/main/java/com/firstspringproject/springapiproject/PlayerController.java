@@ -28,5 +28,14 @@ public class PlayerController {
         repo.save(p);
         return "Player saved";
     }
-   
+
+    // @GetMapping("/get-id/all")
+    // public String getUser(String id) {
+     
+    //         PlayerRepo.filter(t -> id.equals(t.getId()))
+    //         .findFirst()
+    //         .orElse(null);
+            
+    //     return user;
+    // }  
 }
